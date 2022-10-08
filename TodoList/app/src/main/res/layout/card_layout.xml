@@ -20,8 +20,7 @@
             android:layout_marginBottom="10dp"
             android:textColor="@color/black"
             android:textSize="30sp"
-            android:textStyle="bold"
-            tools:text="Nome da Tarefa" />
+            tools:text="Nome da tarefa" />
 
         <TextView
             android:id="@+id/textDescricao"
@@ -30,7 +29,7 @@
             android:layout_marginBottom="10dp"
             android:textColor="@color/black"
             android:textSize="24sp"
-            tools:text="Descricao da Tarefa" />
+            tools:text="Descrição" />
 
         <TextView
             android:id="@+id/textResponsavel"
@@ -39,7 +38,7 @@
             android:layout_marginBottom="10dp"
             android:textColor="@color/black"
             android:textSize="24sp"
-            tools:text="Responsavel" />
+            tools:text="Responsável" />
 
         <TextView
             android:id="@+id/textData"
@@ -56,8 +55,8 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
             android:minHeight="48dp"
-            android:textSize="20sp"
-            tools:text="Em andamento" />
+            android:text="Em andamento"
+            android:textSize="20sp" />
 
         <TextView
             android:id="@+id/textCategoria"
@@ -73,6 +72,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
-            android:text="Deletar Tarefa" />
+            android:text="DELETAR TAREFA" />
     </LinearLayout>
 </androidx.cardview.widget.CardView>

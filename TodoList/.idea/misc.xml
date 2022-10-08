@@ -3,11 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Murilo/Desktop/Projetos Generation/ProjetosAndroid/TodoList/app/src/main/res/layout/activity_main.xml" value="0.19382022471910113" />
-        <entry key="..\:/Murilo/Desktop/Projetos Generation/ProjetosAndroid/TodoList/app/src/main/res/layout/activity_porta.xml" value="0.25" />
-        <entry key="..\:/Murilo/Desktop/Projetos Generation/ProjetosAndroid/TodoList/app/src/main/res/layout/card_layout.xml" value="0.33" />
-        <entry key="..\:/Murilo/Desktop/Projetos Generation/ProjetosAndroid/TodoList/app/src/main/res/layout/fragment_form.xml" value="0.33229166666666665" />
-        <entry key="..\:/Murilo/Desktop/Projetos Generation/ProjetosAndroid/TodoList/app/src/main/res/layout/fragment_list.xml" value="0.33229166666666665" />
+        <entry key="..\:/Users/admin/Desktop/AndroidStudioProjects/ToDoList/app/src/main/res/layout/activity_main.xml" value="0.21" />
+        <entry key="..\:/Users/admin/Desktop/AndroidStudioProjects/ToDoList/app/src/main/res/layout/card_layout.xml" value="0.21" />
+        <entry key="..\:/Users/admin/Desktop/AndroidStudioProjects/ToDoList/app/src/main/res/layout/fragment_form.xml" value="0.14356884057971014" />
+        <entry key="..\:/Users/admin/Desktop/AndroidStudioProjects/ToDoList/app/src/main/res/layout/fragment_list.xml" value="0.14356884057971014" />
       </map>
     </option>
   </component>

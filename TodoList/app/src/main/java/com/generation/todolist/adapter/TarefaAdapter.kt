@@ -1,18 +1,19 @@
 package com.generation.todolist.adapter
 
-
 import android.view.LayoutInflater
+import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.generation.todolist.databinding.CardLayoutBinding
 import com.generation.todolist.model.Tarefa
 
-
 class TarefaAdapter : RecyclerView.Adapter<TarefaAdapter.TarefaViewHolder>() {
 
     private var listTarefa = emptyList<Tarefa>()
 
-    class TarefaViewHolder (val binding: CardLayoutBinding): RecyclerView.ViewHolder(binding.root)
+    class TarefaViewHolder (val binding: CardLayoutBinding) : RecyclerView.ViewHolder(binding.root){
+
+    }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): TarefaViewHolder {
         return TarefaViewHolder(CardLayoutBinding.inflate(
@@ -29,6 +30,7 @@ class TarefaAdapter : RecyclerView.Adapter<TarefaAdapter.TarefaViewHolder>() {
         holder.binding.textData.text = tarefa.data
         holder.binding.switchAtivo.isChecked = tarefa.status
         holder.binding.textCategoria.text = tarefa.categoria.descricao
+
     }
 
     override fun getItemCount(): Int {
@@ -39,5 +41,4 @@ class TarefaAdapter : RecyclerView.Adapter<TarefaAdapter.TarefaViewHolder>() {
         listTarefa = list
         notifyDataSetChanged()
     }
-
 }
